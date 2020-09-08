@@ -5,7 +5,7 @@ RUN apk add --update nodejs npm
 
 COPY . .
 
-EXPOSE 9000
+EXPOSE 3000
 
-CMD node eco-server && \
-    node server
+CMD npm install && \
+    npm run start:stream

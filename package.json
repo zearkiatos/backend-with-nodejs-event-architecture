@@ -1,0 +1,20 @@
+{
+  "name": "backend-with-nodejs-event-architecture",
+  "version": "1.0.0",
+  "description": "Project for learn node js for backend",
+  "main": "async-await.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:stream": "node src/streams/stream-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zearkiatos/backend-with-nodejs-event-architecture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zearkiatos/backend-with-nodejs-event-architecture/issues"
+  },
+  "homepage": "https://github.com/zearkiatos/backend-with-nodejs-event-architecture#readme"
+}
