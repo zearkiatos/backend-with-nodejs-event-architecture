@@ -8,7 +8,9 @@
     "start:stream": "node src/streams/stream-server.js",
     "start:os": "node src/os-files/os.js",
     "start:syncfile": "node src/os-files/sync-file.js",
-    "start:asyncfile": "node src/os-files/async-files.js"
+    "start:asyncfile": "node src/os-files/async-files.js",
+    "start:mkdir": "node src/os-files/mkdir.js",
+    "start:copy": "node src/os-files/copy.js"
   },
   "repository": {
     "type": "git",
