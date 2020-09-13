@@ -10,7 +10,10 @@
     "start:syncfile": "node src/os-files/sync-file.js",
     "start:asyncfile": "node src/os-files/async-files.js",
     "start:mkdir": "node src/os-files/mkdir.js",
-    "start:copy": "node src/os-files/copy.js"
+    "start:copy": "node src/os-files/copy.js",
+    "start:console": "node src/utilities-debugging/console-class.js",
+    "start:inspect": "node --inspect src/utilities-debugging/console-class.js",
+    "start:custom-console": "node src/utilities-debugging/custom-console.js"
   },
   "repository": {
     "type": "git",
